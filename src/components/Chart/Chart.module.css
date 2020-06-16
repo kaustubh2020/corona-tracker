@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
+  -moz-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
+}
+.container:hover {
+  -webkit-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
+  -moz-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
+  box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
