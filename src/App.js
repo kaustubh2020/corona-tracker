@@ -50,10 +50,19 @@ class App extends React.Component {
         <Manifesto />
         <Questions />
         <footer>
-
-          <p>Overview Prevention Symptoms <br />
-            <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank" rel="noopener noreferrer" style={{ color: "#008DC9" }}>
-              <span role="img" aria-label="world">WHO🌍</span></a></p>
+          <p>
+            Overview Prevention Symptoms <br />
+            <a
+              href="https://www.who.int/health-topics/coronavirus#tab=tab_1"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#008DC9" }}
+            >
+              <span role="img" aria-label="world">
+                WHO🌍
+              </span>
+            </a>
+          </p>
           <hr />
           <p>
             Designed & Built with{" "}
@@ -62,7 +71,7 @@ class App extends React.Component {
             </span>{" "}
             by
             <a
-              href="https://github.com/kaustubh2020/find-convid"
+              href="https://github.com/kaustubh2020/corona-tracker"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#f13043" }}
@@ -71,8 +80,8 @@ class App extends React.Component {
               Kaustubh Jaiswal
             </a>
           </p>
-        </footer >
-      </div >
+        </footer>
+      </div>
     );
   }
 }
