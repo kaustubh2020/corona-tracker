@@ -146,7 +146,7 @@ const Img = styled.img`
   width: auto;
   margin: 1em;
   @media (max-width: 768px) {
-    margin: 1em;
+    margin: 0;
     width: 100%;
   }
 `;

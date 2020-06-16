@@ -35,6 +35,10 @@ box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
   -moz-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
   box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
 }
+@media (max-width: 768px) {
+  margin-top: 0;
+  width: 100%;
+}
 `;
 const Title = styled.h1`
   padding: 1em 1em;
