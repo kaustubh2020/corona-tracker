@@ -36,7 +36,7 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
-        <Logo className="logo" />
+        <Logo />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
