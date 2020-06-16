@@ -92,7 +92,7 @@ const Manifesto = () => {
 export default Manifesto;
 
 const Section = styled.div`
-background-image: url(https://lh3.googleusercontent.com/proxy/vLo4H7YKI6yJCZjc8ltKZycqVvzhuqY8Y7HBtid4loz21oeNcOvo7WDkPCh4RS-9k-Jfd5Cx56dVSPqrqqipRPDIgF7aqMXAf4DFTsTPfv5jEYxc_YjUYoVz5CrHweEi83eb9lBKXZGwg9hryn2QLXTuXJDnaHbMaPHvqAm4MkK2pv2CVQ);
+background-image: url(https://incompetech.com/graphpaper/notelined/College%20Lined%20Black.png);
 background-size: contain;
 
 width: 80%;
@@ -146,7 +146,7 @@ const Img = styled.img`
   width: auto;
   margin: 1em;
   @media (max-width: 768px) {
-    margin: 0;
+    margin: 1em;
     width: 100%;
   }
 `;
