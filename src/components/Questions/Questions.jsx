@@ -10,7 +10,9 @@ const Questions = () => {
         return (
           <Container key={i}>
             <Question>{item.question}</Question>
-            <Answer>{item.answer}</Answer>
+            <Answer><span role="img" aria-label="hand">
+              👉🏻
+            </span>{item.answer}</Answer>
           </Container>
         );
       })}
@@ -68,6 +70,7 @@ const Question = styled.h2`
   margin-right: 1em;
   @media (max-width: 1000px) {
     width: 100%;
+    padding-left: 5px;
   }
 `;
 
