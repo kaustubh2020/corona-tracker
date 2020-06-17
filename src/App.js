@@ -63,7 +63,6 @@ class App extends React.Component {
               </span>
             </a>
           </p>
-          <hr />
           <p>
             Designed & Built with{" "}
             <span role="img" aria-label="heart">
@@ -77,7 +76,7 @@ class App extends React.Component {
               style={{ color: "#f13043" }}
             >
               {" "}
-              Kaustubh Jaiswal
+              Kaustubh
             </a>
           </p>
         </footer>

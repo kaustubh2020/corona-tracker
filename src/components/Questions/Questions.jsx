@@ -12,7 +12,7 @@ const Questions = () => {
             <Question>{item.question}</Question>
             <Answer><span role="img" aria-label="hand">
               👉🏻
-            </span>{item.answer}</Answer>
+        </span>{" "}{item.answer}</Answer>
           </Container>
         );
       })}
@@ -70,7 +70,7 @@ const Question = styled.h2`
   margin-right: 1em;
   @media (max-width: 1000px) {
     width: 100%;
-    padding-left: 5px;
+    margin-left: 10px;
   }
 `;
 
