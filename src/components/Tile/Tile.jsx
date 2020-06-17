@@ -1,13 +1,9 @@
 import React from 'react';
 import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import cx from 'classnames';
-
-import AOS from "aos";
-
 import styles from './Tile.module.css';
 
 const Tile = () => {
-    AOS.init();
     return (
         <div className={styles.container}>
             <Grid container spacing={3} justify="center">

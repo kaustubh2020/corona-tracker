@@ -2,11 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Data } from "./Data";
 
-import AOS from "aos";
-
 const Questions = () => {
-
-  AOS.init();
 
   return (
     <Section>
@@ -14,8 +10,8 @@ const Questions = () => {
       {Data.map((item, i) => {
         return (
           <Container key={i}>
-            <Question data-aos="fade-left">{item.question}</Question>
-            <Answer data-aos="fade-right"><span role="img" aria-label="hand">
+            <Question>{item.question}</Question>
+            <Answer><span role="img" aria-label="hand">
               👉🏻
         </span>{" "}{item.answer}</Answer>
           </Container>

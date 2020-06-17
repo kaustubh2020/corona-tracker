@@ -2,18 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
-import AOS from "aos";
-
 const Manifesto = () => {
-
-  AOS.init();
 
   return (
     <Section>
-      <div
-        data-aos="zoom-out-up"
-        data-aos-duration="3000"
-      >
+      <div>
         <Heading><h2>The Self-Quarantine Guide</h2></Heading>
         <SubHeading>
           With no well-studied treatment and no viable vaccine available for at

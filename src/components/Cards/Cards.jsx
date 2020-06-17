@@ -3,8 +3,6 @@ import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
-import AOS from "aos";
-
 import styles from './Cards.module.css';
 
 const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
@@ -12,13 +10,8 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     return 'Loading...';
   }
 
-  AOS.init();
-
   return (
     <div className={styles.container}
-      data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="1500"
     >
       <Grid container spacing={3} justify="center">
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.infected)}>
