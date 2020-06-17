@@ -11,8 +11,6 @@ import {
 import { fetchData } from "./api/";
 import styles from "./App.module.css";
 
-import AOS from "aos";
-
 import { ReactComponent as Logo } from "./images/Corona-Logo.svg";
 
 class App extends React.Component {
@@ -36,16 +34,10 @@ class App extends React.Component {
   render() {
     const { data, country } = this.state;
 
-    AOS.init();
-
     return (
       <div id="1" className={styles.container}>
         <div className={styles.header}>
-          <Logo
-            className={styles.logo}
-            data-aos="zoom-in-down"
-            data-aos-duration="1500"
-          />
+          <Logo className={styles.logo} />
         </div>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
