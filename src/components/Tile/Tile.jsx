@@ -9,7 +9,7 @@ const Tile = () => {
             <Grid container spacing={3} justify="center">
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
+                        <Typography color="textPrimary" gutterBottom>
                             <h4>Children <span role="img" aria-label="kid">👶</span></h4>
                         </Typography>
                         <Typography variant="body2" component="p">
@@ -19,7 +19,7 @@ const Tile = () => {
                 </Grid>
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
+                        <Typography color="textPrimary" gutterBottom>
                             <h4>Elderly <span role="img" aria-label="old">👴</span></h4>
                         </Typography>
                         <Typography variant="body2" component="p">
@@ -29,7 +29,7 @@ const Tile = () => {
                 </Grid>
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
+                        <Typography color="textPrimary" gutterBottom>
                             <h4>Immunosuppressed Individuals <span role="img" aria-label="weak">🤧</span></h4>
                         </Typography>
                         <Typography variant="body2" component="p">

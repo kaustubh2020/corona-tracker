@@ -14,9 +14,19 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-/* hide scrollbar */
+/* --hide scrollbar-- */
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+/* --Selection Color-- */
+::-moz-selection {
+  color: rgb(224, 0, 0);
+  background: rgb(255, 255, 35);
+} /* Code for Firefox */
+::selection {
+  color: rgb(224, 0, 0);
+  background: rgb(255, 255, 35);
 }
 
 .container {
