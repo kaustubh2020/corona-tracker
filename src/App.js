@@ -11,6 +11,8 @@ import {
 import { fetchData } from "./api/";
 import styles from "./App.module.css";
 
+import AOS from "aos";
+
 import { ReactComponent as Logo } from "./images/Corona-Logo.svg";
 
 class App extends React.Component {
@@ -34,9 +36,17 @@ class App extends React.Component {
   render() {
     const { data, country } = this.state;
 
+    AOS.init();
+
     return (
-      <div className={styles.container}>
-        <Logo />
+      <div id="1" className={styles.container}>
+        <div className={styles.header}>
+          <Logo
+            className={styles.logo}
+            data-aos="zoom-in-down"
+            data-aos-duration="1500"
+          />
+        </div>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
@@ -49,6 +59,11 @@ class App extends React.Component {
         <Tile />
         <Manifesto />
         <Questions />
+
+        {/* Footer Section */}
+        <a href="#1">
+          <button>⬆ Top ⬆</button>
+        </a>
         <footer>
           <p>
             Overview Prevention Symptoms <br />
@@ -58,8 +73,9 @@ class App extends React.Component {
               rel="noopener noreferrer"
               style={{ color: "#008DC9" }}
             >
+              WHO
               <span role="img" aria-label="world">
-                WHO🌍
+                🌍
               </span>
             </a>
           </p>

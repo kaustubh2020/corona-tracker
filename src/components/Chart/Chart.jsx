@@ -5,6 +5,8 @@ import { fetchDailyData } from '../../api';
 
 import styles from './Chart.module.css';
 
+import AOS from "aos";
+
 const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   const [dailyData, setDailyData] = useState({});
 
@@ -62,8 +64,15 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     ) : null
   );
 
+  AOS.init();
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container}
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-delay="500"
+      data-aos-duration="1500"
+    >
       {country ? barChart : lineChart}
     </div>
   );

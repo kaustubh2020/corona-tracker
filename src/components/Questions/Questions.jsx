@@ -2,15 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { Data } from "./Data";
 
+import AOS from "aos";
+
 const Questions = () => {
+
+  AOS.init();
+
   return (
     <Section>
       <Title><h2>Common Questions</h2></Title>
       {Data.map((item, i) => {
         return (
           <Container key={i}>
-            <Question>{item.question}</Question>
-            <Answer><span role="img" aria-label="hand">
+            <Question data-aos="fade-left">{item.question}</Question>
+            <Answer data-aos="fade-right"><span role="img" aria-label="hand">
               👉🏻
         </span>{" "}{item.answer}</Answer>
           </Container>
@@ -29,13 +34,9 @@ const Section = styled.div`
   margin-top: 50px;
   margin-bottom: 50px;
 border-radius: 15px;
--webkit-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
--moz-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
+box-shadow: 5px 5px 10px grey, -5px -5px 10px #fff;
 &:hover{
-    -webkit-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
-  -moz-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
-  box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
+  box-shadow: 15px 15px 20px grey, -15px -15px 20px #fff;
 }
 @media (max-width: 768px) {
   margin-top: 20px;

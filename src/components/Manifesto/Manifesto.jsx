@@ -2,10 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import LazyLoad from "react-lazyload";
 
+import AOS from "aos";
+
 const Manifesto = () => {
+
+  AOS.init();
+
   return (
     <Section>
-      <div>
+      <div
+        data-aos="zoom-out-up"
+        data-aos-duration="3000"
+      >
         <Heading><h2>The Self-Quarantine Guide</h2></Heading>
         <SubHeading>
           With no well-studied treatment and no viable vaccine available for at
@@ -25,7 +33,7 @@ const Manifesto = () => {
           <LazyLoad height="100%">
             <Img src="https://media.giphy.com/media/WdiaOAX35Pnzi/giphy.gif" />
           </LazyLoad>
-        </Container>
+        </Container >
 
         <Container>
           <Title>
@@ -84,8 +92,8 @@ const Manifesto = () => {
             <Img src="https://media.giphy.com/media/McVcE1YJrsze1qtgnP/giphy.gif" />
           </LazyLoad>
         </Container>
-      </div>
-    </Section>
+      </div >
+    </Section >
   );
 };
 
@@ -98,13 +106,9 @@ background-size: contain;
 width: 80%;
 margin-top: 100px;
 border-radius: 15px;
--webkit-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
--moz-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
-box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
+box-shadow: 5px 5px 10px grey, -5px -5px 10px #fff;
 &:hover{
-    -webkit-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
-  -moz-box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
-  box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
+  box-shadow: 15px 15px 20px grey, -15px -15px 20px #fff;
 }
 @media (max-width: 768px) {
     margin-top: 0;
