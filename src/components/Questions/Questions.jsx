@@ -36,7 +36,7 @@ box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1), -5px -5px 10px #fff;
   box-shadow: 15px 15px 20px rgb(0, 0, 0, 0.1), -15px -15px 20px #fff;
 }
 @media (max-width: 768px) {
-  margin-top: 0;
+  margin-top: 20px;
   width: 100%;
 }
 `;
@@ -68,7 +68,6 @@ const Question = styled.h2`
   margin-right: 1em;
   @media (max-width: 1000px) {
     width: 100%;
-    padding:0 1em;
   }
 `;
 
