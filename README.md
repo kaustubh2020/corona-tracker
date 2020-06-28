@@ -36,10 +36,8 @@
 <a target="_blank" rel="noopener noreferrer" href="https://app.netlify.com/sites/kaustubh-folio/deploys">
 =======
 <a href="https://app.netlify.com/sites/findconvid/deploys">
-
-> > > > > > > 18b7aba58384d36f957d4f512020e4fcbaf84443
-> > > > > > > <img alt="Netlify" src="https://img.shields.io/netlify/46662505-4940-4e87-8c46-e00ceaaa44d4?logo=netlify&logoColor=blue&style=social">
-> > > > > > > </a>
+<img alt="Netlify" src="https://img.shields.io/netlify/46662505-4940-4e87-8c46-e00ceaaa44d4?logo=netlify&logoColor=blue&style=social">
+</a>
 
 </p>
 
