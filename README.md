@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a href="https://findconvid.netlify.app/"><h1 align="center">FindConvid</h1></a>
 
  <h2 align="center">View the latest statistics about COVID-19</h2>
@@ -41,6 +42,9 @@
 </p>
 
 <!-- Footer END -->
+=======
+# [FindConvid](https://findconvid.netlify.app/)
+>>>>>>> 16dc73cad88defbe1069275fa2abbe1a0f9a2641
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
