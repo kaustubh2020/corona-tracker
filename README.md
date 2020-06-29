@@ -47,7 +47,7 @@
 
 ## :wrench: Setup
 
-`git clone https://github.com/kaustubh2020/corona-tracker`
+##### `git clone https://github.com/kaustubh2020/corona-tracker`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
