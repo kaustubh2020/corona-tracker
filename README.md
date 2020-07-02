@@ -32,13 +32,10 @@
   <img alt="Gmail URL" src="https://img.shields.io/twitter/url?label=E-mail&logo=google%20messages&logoColor=blue&style=social&url=https%3A%2F%2Fmail.google.com%2F">
 </a>
 
-<<<<<<< HEAD
 <a target="_blank" rel="noopener noreferrer" href="https://app.netlify.com/sites/hackernews/deploys">
   <img alt="Netlify" src="https://img.shields.io/netlify/278b372a-cd4e-4f53-816a-d2fb94fda1bc?label=Netlify&logo=netlify&logoColor=blue&style=social">
 </a>
 
-=======
->>>>>>> 54c7ce9bc2315688d7299a145041fbafddc1a1c2
 </p>
 
 <!-- Footer END -->
