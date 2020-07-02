@@ -32,14 +32,6 @@
   <img alt="Gmail URL" src="https://img.shields.io/twitter/url?label=E-mail&logo=google%20messages&logoColor=blue&style=social&url=https%3A%2F%2Fmail.google.com%2F">
 </a>
 
-<a target="_blank" rel="noopener noreferrer" href="https://app.netlify.com/sites/kaustubh-folio/deploys">
-<a href="https://app.netlify.com/sites/findconvid/deploys">
-
-<img alt="Netlify" src="https://img.shields.io/netlify/46662505-4940-4e87-8c46-e00ceaaa44d4?logo=netlify&logoColor=blue&style=social">
-
-<img alt="Netlify" src="https://img.shields.io/netlify/46662505-4940-4e87-8c46-e00ceaaa44d4?logo=netlify&logoColor=blue&style=social">
-</a>
-
 </p>
 
 <!-- Footer END -->
