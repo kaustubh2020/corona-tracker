@@ -5,7 +5,9 @@
   background-color: white;
   box-shadow: 5px 5px 10px grey, -5px -5px 10px #fff;
 }
-.formControl:hover {
+.formControl:hover,
+.formControl:active,
+.formControl:focus {
   box-shadow: 15px 15px 20px grey, -15px -15px 20px #fff;
 }
 

@@ -100,7 +100,7 @@ width: 80%;
 margin-top: 100px;
 border-radius: 15px;
 box-shadow: 5px 5px 10px grey, -5px -5px 10px #fff;
-&:hover{
+&:hover, &:active, &:focus{
   box-shadow: 15px 15px 20px grey, -15px -15px 20px #fff;
 }
 @media (max-width: 768px) {
