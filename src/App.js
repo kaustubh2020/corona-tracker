@@ -78,7 +78,7 @@ class App extends React.Component {
             </span>{" "}
             by
             <a
-              href="https://github.com/kaustubh2020/corona-tracker"
+              href="https://kaustubh-folio.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#f13043" }}
